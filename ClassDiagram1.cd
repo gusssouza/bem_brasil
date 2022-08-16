@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="estrutura_herancas.Pessoa">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAAAAIAgAAAAAAAAAAAEAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>Pessoa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Beneficiario">
+    <Position X="12" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAAAAAAAAAAAAAAAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>Beneficiario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Beneficente">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAEAAAAAACAA=</HashCode>
+      <FileName>Beneficente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Doacoes">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Doacoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Produtos">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAEAAAAAAAAAACQAAAAAAAAAAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>Produtos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Solicitados">
+    <Position X="5.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Solicitados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Doacoes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="estrutura_herancas.Ofertados">
+    <Position X="9.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEBAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ofertados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Doacoes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="estrutura_herancas.Doador">
+    <Position X="16.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAgAAAA=</HashCode>
+      <FileName>Doador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DoadorEEntregador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="estrutura_herancas.Entregador">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAEAAAAAAA=</HashCode>
+      <FileName>Entregador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DoadorEEntregador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="estrutura_herancas.DoadorEEntregador">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoadorEEntregador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Alimento">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Alimento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Roupa">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Roupa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Brinquedos">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Brinquedos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Perecivel">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Perecivel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.NaoPerecivel">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NaoPerecivel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Feminina">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feminina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Masculina">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Masculina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="estrutura_herancas.Endereco">
+    <Position X="11" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QIIAAAAAYABAAAAAAAAAgAAAAgAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Endereco.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pessoa" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
