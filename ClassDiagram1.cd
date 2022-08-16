@@ -117,20 +117,6 @@
       <FileName>NaoPerecivel.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="estrutura_herancas.Feminina">
-    <Position X="6.75" Y="8" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Feminina.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="estrutura_herancas.Masculina">
-    <Position X="8.75" Y="8" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Masculina.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="estrutura_herancas.Endereco">
     <Position X="11" Y="0.5" Width="1.75" />
     <TypeIdentifier>
